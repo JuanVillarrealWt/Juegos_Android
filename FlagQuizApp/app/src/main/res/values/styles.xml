@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Estilo para los botones del quiz -->
+    <style name="QuizButton" parent="@android:style/Widget.Material.Button.Colored">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item> <!-- clave -->
+        <item name="android:layout_weight">1</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+</resources>

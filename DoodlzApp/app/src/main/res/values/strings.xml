@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Doodlz</string>
+    <string name="title_color_dialog">Select Color</string>
+    <string name="title_line_width_dialog">Select Line Width</string>
+    <string name="title_erase_dialog">Erase Canvas</string>
+    <string name="message_erase">Are you sure you want to erase the canvas?</string>
+    <string name="button_erase">Erase</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_set_line_width">Set Line Width</string>
+    <string name="button_set_color">Set Color</string>
+    <string name="action_color">Color</string>
+    <string name="action_line_width">Line Width</string>
+    <string name="action_delete">Erase</string>
+    <string name="action_save">Save Image</string>
+    <string name="action_print">Print</string>
+    <string name="label_red">Red</string>
+    <string name="label_green">Green</string>
+    <string name="label_blue">Blue</string>
+    <string name="message_saved">Image saved to Gallery!</string>
+    <string name="message_not_saved">Failed to save image.</string>
+
+    <!-- Agregados para resolver los errores de compilación -->
+    <string name="message_error_saving">Failed to save image.</string>
+    <string name="message_cannot_print">Cannot print drawing.</string>
+    <string name="permission_explanation">Storage permission is required to save drawings.</string>
+    <string name="label_alpha">Alpha</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color> <!-- Azul Material -->
+    <color name="colorPrimaryVariant">#1976D2</color> <!-- Azul más oscuro -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- Texto blanco -->
+    <color name="colorSecondary">#03DAC5</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="backgroundColor">#FFFFFF</color>
+
+
+    <!-- Colores para respuestas -->
+    <color name="correct_answer">#4CAF50</color>   <!-- Verde -->
+    <color name="incorrect_answer">#F44336</color> <!-- Rojo -->
+</resources>

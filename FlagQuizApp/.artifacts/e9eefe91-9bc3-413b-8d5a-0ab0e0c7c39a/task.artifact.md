@@ -1,0 +1,7 @@
+- [ ] Create domain entities package and `Country` entity
+- [ ] Create application contracts/repositories interface
+- [ ] Create application use cases
+- [ ] Create infrastructure persistence/repositories implementation
+- [ ] Move and update presentation activities and fragments
+- [ ] Create composition wiring
+- [ ] Build and verify project compilation and execution
