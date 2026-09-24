@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary: Indigo (Toolbar y StatusBar) -->
+    <color name="colorPrimary">#3949AB</color>
+    <color name="colorPrimaryDark">#283593</color>
+    <!-- Accent: Deep Orange (FAB, hints activos, subrayado activo) -->
+    <color name="colorAccent">#FF5722</color>
+    <!-- Fondo de la seccion Tagged Searches -->
+    <color name="colorTaggedSearches">#BBDEFB</color>
+    <!-- Texto de items de lista -->
+    <color name="colorListItemText">#455A64</color>
+    <!-- Titulo de seccion Tagged Searches -->
+    <color name="colorTaggedTitle">#455A64</color>
+    <!-- Fondo general blanco/gris suave -->
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

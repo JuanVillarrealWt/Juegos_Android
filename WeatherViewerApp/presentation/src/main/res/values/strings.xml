@@ -1,0 +1,7 @@
+<resources>
+    <string name="weather_condition_image">Representación gráfica del clima</string>
+    <string name="high_temp">Máx: %s</string>
+    <string name="low_temp">Mín: %s</string>
+    <string name="day_description">%1$s: %2$s</string>
+    <string name="humidity">Humedad: %s</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta de Colores de la Práctica PDF (Material Design Indigo & Deep Orange) -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF5722</color>
+
+    <!-- Compatibilidad de nombres -->
+    <color name="primary_indigo">#3F51B5</color>
+    <color name="primary_indigo_dark">#303F9F</color>
+    <color name="accent_orange">#FF5722</color>
+
+    <!-- Colores base y superficies -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="background_white">#FFFFFFFF</color>
+    <color name="surface_white">#FFFFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+    <!-- Bordes y divisores -->
+    <color name="border_gray">#555555</color>
+</resources>

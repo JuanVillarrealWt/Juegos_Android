@@ -1,0 +1,21 @@
+<resources>
+    <style name="ContactLabelTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">end|center_vertical</item>
+        <item name="android:gravity">end|center_vertical</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ContactTextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">fill_horizontal|center_vertical</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/textview_border</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+</resources>

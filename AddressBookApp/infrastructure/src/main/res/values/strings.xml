@@ -1,0 +1,7 @@
+<resources>
+    <string name="invalid_query_uri">URI de consulta no válida: </string>
+    <string name="invalid_insert_uri">URI de inserción no válida: </string>
+    <string name="invalid_update_uri">URI de actualización no válida: </string>
+    <string name="invalid_delete_uri">URI de eliminación no válida: </string>
+    <string name="insert_failed">Error en la inserción: </string>
+</resources>

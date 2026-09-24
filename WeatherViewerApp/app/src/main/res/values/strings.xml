@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Visor del Clima</string>
+    <string name="api_key">Use your own OpenWeatherMap.org API key for this resource\'s value.</string>
+    <string name="web_service_url">https://api.openweathermap.org/data/2.5/forecast/daily?q=</string>
+    <string name="invalid_url">URL inválida</string>
+    <string name="hint_text">Ingrese la ciudad (ej: Boston, MA, US)</string>
+    <string name="read_error">No se pudieron leer los datos del clima</string>
+    <string name="connect_error">No se pudo conectar al servicio del clima</string>
+    <string name="city_not_found">Ciudad no encontrada. Intenta con otra ciudad.</string>
+</resources>

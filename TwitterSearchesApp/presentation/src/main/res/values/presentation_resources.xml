@@ -1,0 +1,5 @@
+<resources>
+    <color name="presentation_tagged_searches_background">#BBDEFB</color>
+    <color name="presentation_list_item_text">#455A64</color>
+    <dimen name="presentation_list_item_horizontal_margin">16dp</dimen>
+</resources>

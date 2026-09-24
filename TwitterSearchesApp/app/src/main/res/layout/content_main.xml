@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <!--
+        Campo 1: Query de busqueda
+        - Con mayor tamaño de texto (20sp), titulos flotantes mas grandes y padding espacioso
+    -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/queryTextInputLayout"
+        style="@style/Widget.Design.TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        app:hintTextAppearance="@style/LargeHintTextAppearance"
+        app:hintTextColor="@color/colorAccent"
+        app:hintEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/queryEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/query_prompt"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="#222222"
+            android:textSize="20sp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--
+        Campo 2: Etiqueta (tag)
+        - Mayor espaciado y tamaño para que luzca comodo y proporcionado como en el PDF
+    -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tagTextInputLayout"
+        style="@style/Widget.Design.TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/queryTextInputLayout"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        app:hintTextAppearance="@style/LargeHintTextAppearance"
+        app:hintTextColor="@color/colorAccent"
+        app:hintEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tagEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tag_prompt"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="#222222"
+            android:textSize="20sp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Seccion de lista: titulo + RecyclerView con fondo azul claro -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tagTextInputLayout"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTaggedSearches"
+            android:gravity="center_horizontal"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:text="@string/tagged_searches"
+            android:textColor="@color/colorTaggedTitle"
+            android:textStyle="bold"
+            android:textSize="19sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorTaggedSearches"
+            android:clipToPadding="false"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:paddingEnd="@dimen/activity_horizontal_margin" />
+    </LinearLayout>
+
+</RelativeLayout>

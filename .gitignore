@@ -1,0 +1,16 @@
+# Archivos de compilación y Android
+*.apk
+*.aab
+bin/
+gen/
+out/
+build/
+.gradle/
+local.properties
+
+# IDE (Android Studio / IntelliJ)
+.idea/
+.vscode/
+*.iml
+.cxx/
+.cache/

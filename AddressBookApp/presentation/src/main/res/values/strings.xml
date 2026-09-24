@@ -1,0 +1,51 @@
+<resources>
+    <!-- Nombre de la aplicación -->
+    <string name="app_name">Libreta de Contactos</string>
+
+    <!-- Opciones de Menú de la Barra Superior -->
+    <string name="menuitem_edit">Editar</string>
+    <string name="menuitem_delete">Eliminar</string>
+
+    <!-- Descripciones de Accesibilidad para los Botones Flotantes (FAB) -->
+    <string name="action_add">Agregar contacto</string>
+    <string name="action_save">Guardar contacto</string>
+
+    <!-- Hints para los campos de entrada (Formulario Agregar / Editar) -->
+    <string name="hint_name_required">Nombre (Requerido)</string>
+    <string name="hint_phone">Teléfono</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_street">Calle / Dirección</string>
+    <string name="hint_city">Ciudad</string>
+    <string name="hint_state">Provincia / Estado</string>
+    <string name="hint_zip">Código Postal</string>
+
+    <!-- Etiquetas para la Pantalla de Detalles -->
+    <string name="label_name">Nombre:</string>
+    <string name="label_phone">Teléfono:</string>
+    <string name="label_email">Correo:</string>
+    <string name="label_street">Calle:</string>
+    <string name="label_city">Ciudad:</string>
+    <string name="label_state">Provincia:</string>
+    <string name="label_zip">Código Postal:</string>
+
+    <!-- Diálogo de Confirmación para Eliminar -->
+    <string name="confirm_title">¿Está seguro?</string>
+    <string name="confirm_message">Esto eliminará el contacto permanentemente</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_delete">Eliminar</string>
+
+    <!-- Notificaciones y Snackbars -->
+    <string name="contact_added">Contacto agregado exitosamente</string>
+    <string name="contact_not_added">No se pudo agregar el contacto debido a un error</string>
+    <string name="contact_updated">Contacto actualizado</string>
+    <string name="contact_not_updated">No se pudo actualizar el contacto debido a un error</string>
+    <string name="contact_not_deleted">No se pudo eliminar el contacto</string>
+    <string name="contacts_load_failed">No se pudieron cargar los contactos</string>
+    <string name="contact_load_failed">No se pudo cargar el contacto</string>
+
+    <!-- Mensajes de Validación -->
+    <string name="error_name_required">El nombre es obligatorio</string>
+    <string name="error_invalid_phone">Teléfono inválido (debe tener 9 o 10 dígitos)</string>
+    <string name="error_invalid_email">Correo inválido (ejemplo@dominio.com)</string>
+    <string name="error_invalid_zip">Código postal inválido (debe tener 6 dígitos)</string>
+</resources>

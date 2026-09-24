@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:gravity="center_vertical"
+    android:textSize="18sp"
+    android:textColor="@color/presentation_list_item_text"
+    android:paddingStart="@dimen/presentation_list_item_horizontal_margin"
+    android:paddingEnd="@dimen/presentation_list_item_horizontal_margin"
+    android:background="@color/presentation_tagged_searches_background"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
