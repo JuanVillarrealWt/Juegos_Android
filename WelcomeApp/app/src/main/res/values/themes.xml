@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Usamos AppCompat para asegurar compatibilidad con la barra clásica -->
+    <style name="Theme.WelcomeCA" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Color principal (Pinta la barra superior / ActionBar) -->
+        <item name="colorPrimary">#2196F3</item>
+        <!-- Color de la barra de estado superior del teléfono -->
+        <item name="colorPrimaryDark">#1976D2</item>
+        <!-- Color de acento para elementos interactivos -->
+        <item name="colorAccent">#2196F3</item>
+    </style>
+</resources>
